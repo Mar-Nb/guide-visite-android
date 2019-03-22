@@ -3,7 +3,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Présentation du DUT Informatique</string>
-    <string name="nav_header_subtitle">Réalisée par Victor Chardéron et Martin Niombela</string>
+    <string name="nav_header_subtitle">Victor Chardéron et Martin Niombela</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -20,7 +20,7 @@
     <string name="menu_item_etudiant">Vie étudiante</string>
 
     <string name="titre_accueil">Bonjour !\n\nCette application va vous faire faire un rapide tour du DUT Informatique à Vélizy.</string>
-    <string name="pied_accueil">Adresse de l\'iut + mail d\'Émilie</string>
+    <string name="pied_accueil">Adresse : 10–12 Avenue de l\'Europe, 78140 Vélizy-Villacoublay\nUniversité de Versailles Saint-Quentin-en-Yvelines (UVSQ)</string>
 
     <string name="titre_cours">Les cours en DUT Informatique à Vélizy</string>
     <string name="titre_s1">Cours du S1</string>
@@ -136,8 +136,11 @@
 
     <string name="titre_ressenti">Notre ressenti sur le DUT Informatique à Vélizy</string>
     <string name="ressenti_victor">Mes 2 années à l\'IUT se sont super bien passé, malgré le manque de vie étudiante et d\'activités alentours.\nLes profs sont cools, à l\'écoute et toujours
-    présents pour répondre aux questions. Il y a un bon suivi aussi de la part des profs. L\'IUT, c'est un peu comme le lycée mais avec un peu plus d'autonomie.\nBref, venez, c'est bien ici.</string>
-    <string name="ressenti_martin">Texte à ajouter</string>
+    présents pour répondre aux questions. Il y a un bon suivi aussi de la part des profs. L\'IUT, c\'est un peu comme le lycée mais avec un peu plus d\'autonomie.\nBref, venez, c\'est bien ici.</string>
+    <string name="ressenti_martin">L\'IUT de Vélizy est un bon endroit pour faire son DUT Informatique. Il y a une très bonne équipe enseignante et
+    tout ce qu\'il faut pour bien apprendre et réussir. Le DUT Informatique est accessible à tout le monde, même ceux qui n\'ont jamais codé (comme moi au début de
+    ma formation).\nEn ce qui concerne les activités, c\'est un peu vide aux alentours, mais rien ne vous empêche de vous réunir dans un appart étudiant !
+    \nN\'hésitez pas à venir !</string>
 
     <string name="titre_vie_étudiante">La vie étudiante à l\'IUT de Vélizy</string>
     <string name="h1_vie_etudiante">Les activités</string>

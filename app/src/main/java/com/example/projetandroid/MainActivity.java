@@ -1,7 +1,10 @@
 package com.example.projetandroid;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.util.Log;
@@ -14,11 +17,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, PageAccueil.OnFragmentInteractionListener, PageCours.OnFragmentInteractionListener,
 PagePoursuite.OnFragmentInteractionListener, PageRessource.OnFragmentInteractionListener, PageRessenti.OnFragmentInteractionListener, PageVieEtudiante.OnFragmentInteractionListener {
+
+    AlertDialog.Builder ad;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +57,6 @@ PagePoursuite.OnFragmentInteractionListener, PageRessource.OnFragmentInteraction
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new PageAccueil()).commit();
             navigationView.setCheckedItem(R.id.page_accueil);
         }
-
     }
 
     @Override
