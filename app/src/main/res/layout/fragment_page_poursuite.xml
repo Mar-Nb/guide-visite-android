@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_poursuite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagePoursuite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitrePoursuite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingBottom="70dp"
+            android:text="@string/titre_poursuite"
+            android:textAlignment="center"
+            android:textColor="@color/colorUvsq"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTitreIngé"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_ingé"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerPoursuite"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="wrap_content"
+            android:entries="@array/ingé"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewTitreUniv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_univ"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerPoursuite2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/université"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewTitreVieActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_vie_active"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerPoursuite3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/vie_active"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewTitreEtranger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_étranger"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerPoursuite4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/étranger"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewPiedPoursuite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="25dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="0dp"
+            android:text="@string/non_exhau"
+            android:textColor="@color/colorUvsq"
+            android:textStyle="italic" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_cours"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageCours">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitreCours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingBottom="100dp"
+            android:text="@string/titre_cours"
+            android:textAlignment="center"
+            android:textColor="@color/colorUvsq"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTitreS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_s1"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCours"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="wrap_content"
+            android:entries="@array/s1"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewTitreS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_s2"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCours2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/s2"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewTitreS3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_s3"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCours3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/s3"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textViewTitreS4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/titre_s4"
+            android:textColor="@color/colorUvsq"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCours4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/s4"
+            android:padding="20dp"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+</FrameLayout>

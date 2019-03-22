@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">ProjetAndroid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Présentation du DUT Informatique</string>
+    <string name="nav_header_subtitle">Réalisée par Victor Chardéron et Martin Niombela</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Victor">Victor, 2ème année DUT Informatique (2017–2019)</string>
+    <string name="Martin">Martin, 2ème année DUT Informatique (2017–2019)</string>
+
+    <string name="descri_logo">Logo de l\'IUT de Vélizy</string>
+
+    <string name="menu_item_accueil">Page d\'accueil</string>
+    <string name="menu_item_cours">Les cours</string>
+    <string name="menu_item_poursuite">Poursuites d\'études</string>
+    <string name="menu_item_ressource">Ressources</string>
+    <string name="menu_item_ressenti">Notre ressenti</string>
+    <string name="menu_item_etudiant">Vie étudiante</string>
+
+    <string name="titre_accueil">Bonjour !\n\nCette application va vous faire faire un rapide tour du DUT Informatique à Vélizy.</string>
+    <string name="pied_accueil">Adresse de l\'iut + mail d\'Émilie</string>
+
+    <string name="titre_cours">Les cours en DUT Informatique à Vélizy</string>
+    <string name="titre_s1">Cours du S1</string>
+    <string name="titre_s2">Cours du S2</string>
+    <string name="titre_s3">Cours du S3</string>
+    <string name="titre_s4">Cours du S4</string>
+    <string-array name="s1">
+        <item>Introduction aux systèmes informatiques</item>
+        <item>Introduction à l\'algorithmique et à la programmation</item>
+        <item>Structure de données et algorithmes fondamentaux</item>
+        <item>Introduction aux bases de données</item>
+        <item>Conception de documents et d\'interfaces numériques</item>
+        <item>Projet tutoré</item>
+        <item>Mathématiques discrètes</item>
+        <item>Algèbre linéaire</item>
+        <item>Environnement économique</item>
+        <item>Fonctionnement des organisations</item>
+        <item>Expression - Communication</item>
+        <item>Anglais et informatique</item>
+        <item>Projet personnel et professionnel</item>
+    </string-array>
+    <string-array name="s2">
+        <item>Architecture et programmation</item>
+        <item>Architecture des réseaux</item>
+        <item>Bases de la programmation orientée objets</item>
+        <item>Bases de la conception orientée objet</item>
+        <item>Introduction aux IHM</item>
+        <item>Programmation et admninistration des bases de données</item>
+        <item>Projet tutoré</item>
+        <item>Graphes et langages</item>
+        <item>Analyse et méthodes numériques</item>
+        <item>Environnement comptable, financier, juridique et social</item>
+        <item>Gestion de projet informatique</item>
+        <item>Expression - Communication</item>
+        <item>Communiquer en anglais</item>
+        <item>Projet personnel et professionnel</item>
+    </string-array>
+    <string-array name="s3">
+        <item>Principes des systèmes d\'exploitation</item>
+        <item>Services réseaux</item>
+        <item>Algorithmique avancée</item>
+        <item>Programmation Web côté serveur</item>
+        <item>Conception et programmation objet avancées</item>
+        <item>Compléments d\'informatiques</item>
+        <item>Probabilités et statistiques</item>
+        <item>Modélisations mathématiques</item>
+        <item>Droit des TIC</item>
+        <item>Gestion des systèmes d\'information</item>
+        <item>Expression - Communication</item>
+        <item>Collaborer en anglais</item>
+        <item>Méthodologie de la production d\'applications</item>
+        <item>Projet tutoré</item>
+        <item>Projet personnel et professionnel</item>
+    </string-array>
+    <string-array name="s4">
+        <item>Bases de données avancées</item>
+        <item>Compléments d\'algorithmique</item>
+        <item>Administration système et réseau</item>
+        <item>Programmation répartie</item>
+        <item>Programmation Web - Client riche</item>
+        <item>Conception et développement d\'applications mobiles</item>
+        <item>Projet tutoré</item>
+        <item>Compléments de mathématiques</item>
+        <item>Ateliers de création d\'entreprises</item>
+        <item>Recherche Opérationnelle</item>
+        <item>Expression - Communication</item>
+        <item>Travailler en anglais</item>
+        <item>Stage professionnel</item>
+    </string-array>
+
+    <string name="titre_poursuite">Les poursuites d\'études possibles après un DUT</string>
+    <string name="titre_ingé">Ecole d\'ingénieur</string>
+    <string name="titre_univ">Université</string>
+    <string name="titre_vie_active">Entrer dans la vie active</string>
+    <string name="titre_étranger">A l\'étranger</string>
+
+    <string name="non_exhau">Les listes présentées ci-dessus ne sont pas exhaustives, et ne montre que ce qu\'il y a aux alentours.\nVous pourriez très bien vous réorienter par exemple.</string>
+
+    <string-array name="ingé">
+        <item>ISTY (au sein du site de Vélizy)</item>
+        <item>EFREI</item>
+        <item>Polytech</item>
+        <item>Eseo</item>
+        <item>EPITA</item>
+    </string-array>
+    <string-array name="université">
+        <item>License informatique</item>
+        <item>Master MIAGE</item>
+        <item>Gestion d\'entreprise</item>
+        <item>License professionnel - Développement logiciel</item>
+        <item>License professionnel - Domotique</item>
+    </string-array>
+    <string-array name="vie_active">
+        <item>Développement d\'applications mobiles</item>
+        <item>Architecte Web</item>
+        <item>Gestionnaire Parc Informatique</item>
+        <item>Technicien de maintenance</item>
+        <item>Administration réseau</item>
+    </string-array>
+    <string-array name="étranger">
+        <item>UQAC</item>
+    </string-array>
+
+    <string name="titre_ressource">Les ressources de l\'IUT de Vélizy</string>
+    <string-array name="liste_ressource">
+        <item>5 salles informatiques</item>
+        <item>3 amphitéâtres</item>
+        <item>7 salles de cours</item>
+        <item>1 salle informatique en libre service</item>
+        <item>1 laboratoire de langue</item>
+        <item>1 Bibliothèque Universitaire</item>
+    </string-array>
+
+    <string name="titre_ressenti">Notre ressenti sur le DUT Informatique à Vélizy</string>
+    <string name="ressenti_victor">Mes 2 années à l\'IUT se sont super bien passé, malgré le manque de vie étudiante et d\'activités alentours.\nLes profs sont cools, à l\'écoute et toujours
+    présents pour répondre aux questions. Il y a un bon suivi aussi de la part des profs. L\'IUT, c'est un peu comme le lycée mais avec un peu plus d'autonomie.\nBref, venez, c'est bien ici.</string>
+    <string name="ressenti_martin">Texte à ajouter</string>
+
+    <string name="titre_vie_étudiante">La vie étudiante à l\'IUT de Vélizy</string>
+    <string name="h1_vie_etudiante">Les activités</string>
+    <string-array name="liste_activité">
+        <item>Journée d\'intégration</item>
+        <item>Voyage organisé par le BDE</item>
+    </string-array>
+
+    <string name="texte_cours">Fragment cours</string>
+    <string name="texte_poursuite">Fragment poursuite</string>
+    <string name="texte_ressource">Fragment ressource</string>
+    <string name="texte_ressenti">Fragment ressenti</string>
+    <string name="texte_etudiant">Fragment vie étudiante</string>
+
+</resources>

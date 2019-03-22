@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_ressenti"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageRessenti">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitreRessenti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingBottom="70dp"
+            android:text="@string/titre_ressenti"
+            android:textAlignment="center"
+            android:textColor="@color/colorUvsq"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewVictor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/Victor"
+            android:textColor="@color/colorUvsq"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewRessentiVictor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="40dp"
+            android:text="@string/ressenti_victor"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewMartin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/Martin"
+            android:textColor="@color/colorUvsq"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewRessentiMartin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/ressenti_martin"
+            android:textColor="@android:color/holo_green_dark" />
+    </LinearLayout>
+</FrameLayout>

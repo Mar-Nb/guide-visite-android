@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--"single empêche l'utilisateur de sélectionner plusieurs items du menu"-->
+        <item
+            android:id="@+id/page_accueil"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_item_accueil" />
+        <item
+            android:id="@+id/page_cours"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="@string/menu_item_cours" />
+        <item
+            android:id="@+id/page_poursuite"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/menu_item_poursuite" />
+        <item
+            android:id="@+id/page_ressource"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="@string/menu_item_ressource" />
+        <item
+            android:id="@+id/page_ressenti"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="@string/menu_item_ressenti" />
+        <item
+            android:id="@+id/page_etudiante"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/menu_item_etudiant" />
+    </group>
+
+</menu>
